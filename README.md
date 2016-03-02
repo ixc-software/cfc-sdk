@@ -22,8 +22,8 @@ _oneSDK = [[OneWorldSDK alloc] initWithAppId:@"You_app_ID" userId:@"Unique_user_
 ```
 When initialisation done delegate will call:
 
-OneWorld delegate
 ```
+#pragma mark - OneWorld delegate
 - (void)pollFetched:(id<OWPoll>)poll
 {
     _pollForShow = poll;
