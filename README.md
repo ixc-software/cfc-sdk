@@ -17,7 +17,7 @@ and
 One time initialisation:
 
 ```
-_oneSDK = [[OneWorldSDK alloc] initWithAppId:@"You app ID" userId:@"unique user ID" delegate:self];
+_oneSDK = [[OneWorldSDK alloc] initWithAppId:@"You_app_ID" userId:@"Unique_user_ID" delegate:self];
 [_oneSDK fetchPoll];
 ```
 When initialisation done delegate will call:
