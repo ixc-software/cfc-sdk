@@ -6,7 +6,7 @@ pod 'OneWorldSDK-iOS', :git => 'https://github.com/ixc-software/cfc-sdk.git'
 
 In a class file where u like to using SDK:
 
- #import <OneWorldSDK-iOS/OneWorldSDK.h>
+#import <OneWorldSDK-iOS/OneWorldSDK.h>
 
 and
 
