@@ -1,1 +1,34 @@
 For integration u can follow those instructions:
+
+In your Pods file add:
+
+pod 'OneWorldSDK-iOS', :git => 'https://github.com/ixc-software/cfc-sdk.git'
+
+In a class file where u like to using SDK:
+
+#import <OneWorldSDK-iOS/OneWorldSDK.h>
+
+and
+
+@property OneWorldSDK *oneSDK;
+@property id<OWPoll> pollForShow;
+
+One time initialisation:
+
+_oneSDK = [[OneWorldSDK alloc] initWithAppId:@“You app ID”                                                                      							userId:@“unique user ID” 
+				      delegate:self];
+[_oneSDK fetchPoll];
+
+When initialisation done delegate will call:
+
+#pragma mark - OneWorld delegate
+- (void)pollFetched:(id<OWPoll>)poll
+{
+    _pollForShow = poll;
+}
+
+and whatever u want:
+
+[_pollForShow show];
+
+
