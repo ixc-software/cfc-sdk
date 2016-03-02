@@ -1,11 +1,11 @@
 For integration u can follow those instructions:
 
-In your Pods file add:
+In your Pods file you have to add this line:
 ```
 pod 'OneWorldSDK-iOS', :git => 'https://github.com/ixc-software/cfc-sdk.git'
 ```
 
-In a class file where u like to using SDK:
+In a class file where you like to using SDK:
 ```
 #import <OneWorldSDK-iOS/OneWorldSDK.h>
 ```
