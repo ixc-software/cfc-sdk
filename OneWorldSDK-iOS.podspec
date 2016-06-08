@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "OneWorldSDK-iOS"
-  s.version          = "0.1.7"
+  s.version          = "0.1.8"
   s.summary          = "OneWorld SDK for iOS."
 
 # This description is used to generate tags and improve search results.
@@ -40,5 +40,5 @@ OneWorld SDK for iOS. It lets developers to earn money by showing polls inside t
   s.dependency 'AFNetworking', '~> 3.0'
   s.dependency 'CocoaLumberjack', '~> 2.0'
   s.dependency 'SDWebImage', '~> 3.0'
-  s.dependency 'GoogleMobileAds', '~> 7.0'
+  s.dependency 'Google-Mobile-Ads-SDK', '~> 7.0'
 end
